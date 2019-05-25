@@ -21,13 +21,14 @@ class Path:
 
 tung = Path()
 tung.input_path() # tested with data/path.txt
-if not tung.valid_path( tung.path ):
+if not tung.valid_path(tung.path):
     tung.output()
 else:
     ch = dict()
     add = list()
     file = open(tung.path)
     for path in file:
+        path = path.strip()
         ch['valid'] = tung.valid_path(path)
         ch['path'] = path
         ch['file_name'] = get_name(path)
