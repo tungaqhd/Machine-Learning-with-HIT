@@ -1,3 +1,4 @@
-/home/linus/prj_abc/1.jpg
+data/path.txt
 /Users/lamhoangtung/Desktop/test.py
+data/path.json
 ~/data/OCR/handwriting/kanji/decomp.png
