@@ -20,7 +20,7 @@ class Path:
         json.dump(data, json_file)
 
 tung = Path()
-tung.input_path()
+tung.input_path() # tested with data/path.txt
 if not tung.valid_path( tung.path ):
     tung.output()
 else:
