@@ -1,0 +1,2 @@
+- Đường dẫn file test cho bài 2 và 3: data/path.txt
+- Output cho bài 2 và 3: data/path.json
