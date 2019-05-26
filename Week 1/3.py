@@ -36,7 +36,7 @@ class Path:
         with open('data/path.json') as file:
             old_data = json.load(file)
         # append data
-        old_data.append(add)
+        old_data.extend(add)
         file.close()
         print('New Json data: \n', old_data)
         file = open('data/path.json', 'w')
