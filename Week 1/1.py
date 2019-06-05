@@ -1,5 +1,6 @@
-path = input()
 def get_name(path):
     arr = path.strip().split('/')
     return arr[-1]
-print(get_name(path))
+if __name__ is '__main__':
+    path = input()
+    print(get_name(path))
